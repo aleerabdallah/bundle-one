@@ -22,8 +22,24 @@ git add TODO.md
 git commit -m "Initial commit"
 ```
 
-[] Create a Github repo and connect it with your project
-[] Push your changes to GitHub
-[] Create a new branch `dev`
+[DONE] Create a Github repo and connect it with your project
+
+```sh
+git remote add origin git@github.com:aleerabdallah/bundle-one.git
+```
+
+[DONE] Push your changes to GitHub
+
+```sh
+git push -u origin main
+```
+
+[DONE] Create a new branch `dev`
+
+```sh
+git branch dev
+```
+
 [] From `dev` create another branch `test`
+
 [] Go back to the `dev` branch and delete the `test` branch
